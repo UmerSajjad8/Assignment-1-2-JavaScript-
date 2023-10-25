@@ -45,14 +45,16 @@ console.log('Your name is ' + username + ' Your age is ' + userage + ' Your Uni 
 console.log('Yay I Can write HTML Content Through JS')
 
 
+// Assignment 3  
 
+const userage = prompt('Enter Your Age');
+alert('Your Age is ' + userage);
 
+const birthYear = 1993;
+console.log('My Birth Year is ' + birthYear +'\n'+ 'Data type of my delacred varibale is number');
 
-
-
-
-
-
-
-
+const visitorName = prompt('Enter Your Name');
+const productTitle = prompt('Enter Your Product Name');
+const productQuantity = +prompt('Enter Your Quantity');
+console.log(visitorName + ' Ordered ' + productQuantity +' '+ productTitle + ' On XYZ Clothing Store');
 
